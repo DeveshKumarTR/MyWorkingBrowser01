@@ -3,11 +3,23 @@
 **Created by: Devesh Kumar**  
 **Copyright © 2025 Devesh Kumar. All rights reserved.**
 
-## 📥 How to Download the MSI Installer
+## 🎯 **NEW: Direct Download Available!**
 
-The **BhaaratBrowser-1.0.1-win64.msi** installer (177 MB) is too large for GitHub's standard file hosting. Here are the available download options:
+**📦 [Click here to download BhaaratBrowser-1.0.1-win64.msi](https://github.com/DeveshKumarTR/MyWorkingBrowser01/raw/master/BhaaratBrowser-1.0.1-win64.msi)** (177 MB)
 
-### Option 1: Build from Source (Recommended)
+✅ **Direct download from GitHub using Git LFS** - No building required!
+
+## 📥 Download Options
+
+### Option 1: Direct Download (Recommended)
+**📦 [Download MSI Installer](https://github.com/DeveshKumarTR/MyWorkingBrowser01/raw/master/BhaaratBrowser-1.0.1-win64.msi)**
+- Size: 177 MB
+- Professional Windows installer by Devesh Kumar
+- No Python installation required
+- Creates desktop shortcuts and start menu entries
+- Automatic uninstaller included
+
+### Option 2: Build from Source
 ```bash
 # Clone the repository
 git clone https://github.com/DeveshKumarTR/MyWorkingBrowser01.git
@@ -20,9 +32,7 @@ py -m pip install PyQt6 PyQt6-WebEngine cx_Freeze
 py setup.py bdist_msi
 ```
 
-The installer will be created in the `dist/` folder as `BhaaratBrowser-1.0.1-win64.msi`.
-
-### Option 2: Run Directly from Source
+### Option 3: Run Directly from Source
 ```bash
 # Clone and run without building
 git clone https://github.com/DeveshKumarTR/MyWorkingBrowser01.git
