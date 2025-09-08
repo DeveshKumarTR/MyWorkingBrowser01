@@ -27,13 +27,16 @@ A secure, feature-rich web browser application built with Python and PyQt6, offe
 
 ## 📥 Download
 
-### For End Users (Recommended)
-- **Latest MSI Installer: BhaaratBrowser-1.0.1-win64.msi** (177 MB)
+### For End Users
+- **MSI Installer: BhaaratBrowser-1.0.1-win64.msi** (177 MB)
   - Professional Windows installer by Devesh Kumar
-  - No Python installation required  
+  - No Python installation required for end users
   - Creates desktop shortcuts and start menu entries
   - Automatic uninstaller included
-  - **Available locally after building** (see Build Instructions below)
+
+**📋 [DOWNLOAD INSTRUCTIONS](DOWNLOAD_INSTRUCTIONS.md)** - Complete guide to get the MSI installer
+
+**Note**: The MSI installer is 177 MB and exceeds GitHub's 100 MB file limit. Please follow the download instructions to build or obtain the installer.
 
 ### For Developers
 - Clone this repository to build from source
