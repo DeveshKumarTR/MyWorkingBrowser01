@@ -1,6 +1,11 @@
 # Bhaarat Browser
 
-A secure web browser application built with Python, featuring functionality similar to Internet Explorer and Chrome.
+[![Release](https://img.shields.io/github/v/release/DeveshKumarTR/MyWorkingBrowser01)](https://github.com/DeveshKumarTR/MyWorkingBrowser01/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/DeveshKumarTR/MyWorkingBrowser01)
+[![Python](https://img.shields.io/badge/python-3.11+-green)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
+A secure, feature-rich web browser application built with Python and PyQt6, offering functionality similar to Internet Explorer and Chrome with modern security features and professional Windows distribution.
 
 ## Features
 
@@ -13,6 +18,19 @@ A secure web browser application built with Python, featuring functionality simi
 - **Zoom Controls**: Zoom in/out functionality
 - **Multi-Window Support**: Open multiple browser windows
 - **Find in Page**: Search within web pages
+
+## 📥 Download
+
+### For End Users (Recommended)
+- **[Download Latest MSI Installer](https://github.com/DeveshKumarTR/MyWorkingBrowser01/releases/latest)** 
+  - Professional Windows installer (177 MB)
+  - No Python installation required
+  - Creates desktop shortcuts and start menu entries
+  - Automatic updates and uninstaller
+
+### For Developers
+- Clone this repository to build from source
+- Portable executable available in releases
 
 ## Available Versions
 
