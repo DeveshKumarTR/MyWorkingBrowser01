@@ -1,11 +1,16 @@
 # Bhaarat Browser
 
+**Created by: Devesh Kumar**  
+**Copyright © 2025 Devesh Kumar. All rights reserved.**
+
 [![Release](https://img.shields.io/github/v/release/DeveshKumarTR/MyWorkingBrowser01)](https://github.com/DeveshKumarTR/MyWorkingBrowser01/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/DeveshKumarTR/MyWorkingBrowser01)
 [![Python](https://img.shields.io/badge/python-3.11+-green)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
 A secure, feature-rich web browser application built with Python and PyQt6, offering functionality similar to Internet Explorer and Chrome with modern security features and professional Windows distribution.
+
+**Created by Devesh Kumar** - A modern browser solution for Windows with professional distribution and security features.
 
 ## Features
 
@@ -18,19 +23,21 @@ A secure, feature-rich web browser application built with Python and PyQt6, offe
 - **Zoom Controls**: Zoom in/out functionality
 - **Multi-Window Support**: Open multiple browser windows
 - **Find in Page**: Search within web pages
+- **Creator Attribution**: "Bhaarat Browser - by Devesh Kumar" branding throughout
 
 ## 📥 Download
 
 ### For End Users (Recommended)
-- **[Download Latest MSI Installer](https://github.com/DeveshKumarTR/MyWorkingBrowser01/releases/latest)** 
-  - Professional Windows installer (177 MB)
-  - No Python installation required
+- **Latest MSI Installer: BhaaratBrowser-1.0.1-win64.msi** (177 MB)
+  - Professional Windows installer by Devesh Kumar
+  - No Python installation required  
   - Creates desktop shortcuts and start menu entries
-  - Automatic updates and uninstaller
+  - Automatic uninstaller included
+  - **Available locally after building** (see Build Instructions below)
 
 ### For Developers
 - Clone this repository to build from source
-- Portable executable available in releases
+- Portable executable available in `build/exe.win-amd64-3.11/` after building
 
 ## Available Versions
 
@@ -38,17 +45,20 @@ A secure, feature-rich web browser application built with Python and PyQt6, offe
 2. **secure_browser.py** - Full-featured browser with all capabilities (recommended)
 3. **main.py** - Advanced modular browser (under development)
 
+All versions now include "by Devesh Kumar" creator attribution.
+
 ## Requirements
 
 - Python 3.8+
 - PyQt6
 - PyQt6-WebEngine
+- cx_Freeze (for building MSI installer)
 
 ## Installation
 
 1. Install dependencies:
 ```bash
-py -m pip install PyQt6 PyQt6-WebEngine PyQt6-sip PyQt6-Qt6 PyQt6-WebEngine-Qt6 requests cryptography validators
+py -m pip install PyQt6 PyQt6-WebEngine PyQt6-sip PyQt6-Qt6 PyQt6-WebEngine-Qt6 requests cryptography validators cx_Freeze
 ```
 
 2. Run the browser:
@@ -59,6 +69,30 @@ py secure_browser.py
 # Or run the simple browser
 py simple_browser.py
 ```
+
+## Building MSI Installer
+
+To build the professional Windows MSI installer:
+
+1. Install build dependencies:
+```bash
+py -m pip install cx_Freeze
+```
+
+2. Build the MSI installer:
+```bash
+py setup.py bdist_msi
+```
+
+The installer will be created in the `dist/` folder as:
+- `BhaaratBrowser-1.0.1-win64.msi` (177 MB)
+
+**Features of the MSI installer:**
+- Professional Windows installer by Devesh Kumar
+- No Python installation required for end users
+- Creates desktop shortcuts and start menu entries  
+- Automatic uninstaller included
+- All dependencies bundled
 
 ## Usage
 
