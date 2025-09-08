@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Simple Secure Browser - Basic working version
+Bhaarat Browser - Simple Version
+
+Created by: Devesh Kumar
+Copyright © 2025 Devesh Kumar. All rights reserved.
 
 A minimal secure web browser application to test the core functionality.
 """
@@ -20,7 +23,7 @@ class SimpleBrowser(QMainWindow):
         
     def init_ui(self):
         """Initialize the user interface."""
-        self.setWindowTitle("Bhaarat Browser - Simple")
+        self.setWindowTitle("Bhaarat Browser - Simple by Devesh Kumar")
         self.setGeometry(100, 100, 1200, 800)
         
         # Central widget

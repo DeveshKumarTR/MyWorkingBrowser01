@@ -1,15 +1,19 @@
-# Bhaarat Browser v1.0.0 Release Notes
+# Bhaarat Browser v1.0.1 Release Notes
 
-## 🎉 **First Release of Bhaarat Browser**
+**Created by: Devesh Kumar**  
+**Copyright © 2025 Devesh Kumar. All rights reserved.**
+
+## 🎉 **Latest Release of Bhaarat Browser**
 
 **Release Date:** September 8, 2025  
-**Version:** 1.0.0  
-**Platform:** Windows 64-bit
+**Version:** 1.0.1  
+**Platform:** Windows 64-bit  
+**Creator:** Devesh Kumar
 
 ### 📦 **Download Options**
 
-1. **MSI Installer (Recommended)**: `BhaaratBrowser-1.0.0-win64.msi` (177 MB)
-   - Professional Windows installer
+1. **MSI Installer (Recommended)**: `BhaaratBrowser-1.0.1-win64.msi` (177 MB)
+   - Professional Windows installer by Devesh Kumar
    - Creates desktop shortcuts and start menu entries
    - Automatic uninstaller
    - No Python installation required
@@ -18,6 +22,14 @@
    - Run directly without installation
    - Self-contained with all dependencies
    - Perfect for USB drives or portable use
+
+### 🆕 **What's New in v1.0.1**
+
+- ✅ **Creator Attribution**: Added "Created by Devesh Kumar" throughout application
+- ✅ **Copyright Information**: Proper copyright notices "© 2025 Devesh Kumar"
+- ✅ **Updated Window Titles**: Now shows "Bhaarat Browser - by Devesh Kumar"
+- ✅ **Enhanced MSI Metadata**: Professional installer with creator information
+- ✅ **MIT License**: Open source licensing with proper attribution
 
 ### ✨ **Features**
 

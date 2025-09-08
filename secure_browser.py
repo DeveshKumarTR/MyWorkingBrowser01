@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """
-Secure Browser - Working Version
+Bhaarat Browser - Secure Web Browser
+
+Created by: Devesh Kumar
+Copyright © 2025 Devesh Kumar. All rights reserved.
 
 A secure web browser application with essential functionality.
+Modern web browsing with security features and professional interface.
 """
 
 import sys
@@ -26,7 +30,7 @@ class SecureBrowser(QMainWindow):
         
     def init_ui(self):
         """Initialize the user interface."""
-        self.setWindowTitle("Bhaarat Browser")
+        self.setWindowTitle("Bhaarat Browser - by Devesh Kumar")
         self.setGeometry(100, 100, 1200, 800)
         
         # Central widget

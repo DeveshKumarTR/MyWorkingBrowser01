@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 """
 Setup script for building Bhaarat Browser executable and MSI installer.
+
+Bhaarat Browser - Modern Web Browser
+Created by: Devesh Kumar
+Copyright © 2025 Devesh Kumar. All rights reserved.
 """
 
 import sys
@@ -39,20 +43,20 @@ executables = [
         base=base,
         target_name="BhaaratBrowser.exe",
         icon=None,  # You can add an icon file here if you have one
-        copyright="Copyright (C) 2025 Bhaarat Browser",
-        trademarks="Bhaarat Browser"
+        copyright="Copyright © 2025 Devesh Kumar. All rights reserved.",
+        trademarks="Bhaarat Browser by Devesh Kumar"
     )
 ]
 
 # Setup configuration
 setup(
     name="BhaaratBrowser",
-    version="1.0.0",
-    description="Bhaarat Browser - A secure web browser with modern functionality",
-    long_description="Bhaarat Browser is a secure web browser application built with Python and PyQt6, featuring tabbed browsing, bookmark management, and modern web engine capabilities.",
-    author="Bhaarat Browser Team",
-    author_email="contact@bhaaratbrowser.com",
-    url="https://github.com/bhaaratbrowser/bhaarat-browser",
+    version="1.0.1",
+    description="Bhaarat Browser - A secure web browser by Devesh Kumar",
+    long_description="Bhaarat Browser is a secure web browser application built with Python and PyQt6, featuring tabbed browsing, bookmark management, and modern web engine capabilities. Created by Devesh Kumar.",
+    author="Devesh Kumar",
+    author_email="devesh@example.com",
+    url="https://github.com/DeveshKumarTR/MyWorkingBrowser01",
     executables=executables,
     options={
         'build_exe': build_options,
@@ -62,9 +66,9 @@ setup(
             'initial_target_dir': r'[ProgramFilesFolder]\Bhaarat Browser',
             'install_icon': None,  # You can add an icon file here
             'summary_data': {
-                'author': 'Bhaarat Browser Team',
-                'comments': 'Bhaarat Browser - Secure Web Browser',
-                'keywords': 'browser;web;secure;internet;chrome;firefox'
+                'author': 'Devesh Kumar',
+                'comments': 'Bhaarat Browser - Modern Secure Web Browser by Devesh Kumar',
+                'keywords': 'browser;web;secure;internet;chrome;firefox;devesh;kumar'
             }
         }
     },
